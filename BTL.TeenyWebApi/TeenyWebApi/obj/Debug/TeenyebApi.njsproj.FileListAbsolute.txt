@@ -1,0 +1,3 @@
+D:\IoT Code\Batching Plant\BTL.TeenyWebApi\TeenyebApi\obj\Debug\TeenyebApi.njsprojAssemblyReference.cache
+D:\IoT Code\Batching Plant\BTL.TeenyWebApi\TeenyebApi\obj\Debug\TeenyebApi.njsproj.CoreCompileInputs.cache
+D:\IoT Code\Batching Plant\BTL.TeenyWebApi\TeenyebApi\bin\Microsoft.NodejsTools.WebRole.dll

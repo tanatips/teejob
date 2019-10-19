@@ -1,0 +1,6 @@
+C:\Users\41284701\Desktop\Batching Plant\BLT.SSM.DataGateway.Private.Batching\DataGatewayPrivateCoolantC\obj\Debug\DataGatewayPrivateBatching.njsprojAssemblyReference.cache
+C:\Users\41284701\Desktop\Batching Plant\BLT.SSM.DataGateway.Private.Batching\DataGatewayPrivateCoolantC\obj\Debug\DataGatewayPrivateBatching.njsproj.CoreCompileInputs.cache
+C:\Users\41284701\Desktop\Batching Plant\BLT.SSM.DataGateway.Private.Batching\DataGatewayPrivateCoolantC\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\41284701\Desktop\Batching Plant\BLT.SSM.DataGateway.Private.Batching\DataGatewayPrivateBatching\obj\Debug\DataGatewayPrivateBatching.njsprojAssemblyReference.cache
+C:\Users\41284701\Desktop\Batching Plant\BLT.SSM.DataGateway.Private.Batching\DataGatewayPrivateBatching\obj\Debug\DataGatewayPrivateBatching.njsproj.CoreCompileInputs.cache
+C:\Users\41284701\Desktop\Batching Plant\BLT.SSM.DataGateway.Private.Batching\DataGatewayPrivateBatching\bin\Microsoft.NodejsTools.WebRole.dll

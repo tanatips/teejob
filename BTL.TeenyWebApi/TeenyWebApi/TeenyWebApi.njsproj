@@ -1,0 +1,238 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">14.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <Name>TeenyWebApi</Name>
+    <RootNamespace>TeenyebApi</RootNamespace>
+    <SaveNodeJsSettingsInProjectFile>True</SaveNodeJsSettingsInProjectFile>
+    <DebuggerPort>5860</DebuggerPort>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>c5e20865-3a40-4821-b044-79300fc3521c</ProjectGuid>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>Main_TeenyWebApi_SSMBatching.js</StartupFile>
+    <StartWebBrowser>False</StartWebBrowser>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <StartWebBrowser>False</StartWebBrowser>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="BusinessData\Execute\File_MySQL_Execute.js" />
+    <Content Include="Controller\Profile\Companied\Company\Cls_Company_Controller.js" />
+    <Content Include="Controller\Profile\Companied\Employees\Department\Cls_Department_Controller.js" />
+    <Content Include="Controller\Profile\Companied\Employees\Employee\Cls_Employee_Controller.js" />
+    <Content Include="Controller\Profile\Companied\Employees\Position\Cls_Position_Controller.js" />
+    <Content Include="Controller\Profile\Companied\Factory\FormulaItem\Cls_FormulaItem_Controller.js" />
+    <Content Include="Controller\Profile\Companied\Factory\Formula\Cls_Formula_Controller.js" />
+    <Content Include="Controller\Profile\Companied\Factory\Unit\Cls_Unit_Controller.js" />
+    <Content Include="Controller\Profile\Companied\Plant\Cls_Plant_Controller.js" />
+    <Content Include="Controller\Profile\Companied\StatusGroup\Cls_StatusGroup_Controller.js" />
+    <Content Include="Controller\Profile\Companied\Status\Cls_Status_Controller.js" />
+    <Content Include="Controller\Profile\Companied\Store\MaterialType\Cls_MaterialType_Controller.js" />
+    <Content Include="Controller\Profile\Companied\Store\Material\Cls_Material_Controller.js" />
+    <Content Include="Controller\Profile\Companied\Truck\Cls_Truck_Controller.js" />
+    <Content Include="Controller\Profile\Custom\Customer\Cls_Customer_Controller.js" />
+    <Content Include="Controller\Profile\Custom\JobSite\Cls_JobSite_Controller.js" />
+    <Content Include="Controller\Profile\Custom\Project\Cls_Project_Controller.js" />
+    <Content Include="Controller\Setting\CustomerProject\Cls_CustomerProject_Controller.js" />
+    <Content Include="Controller\Setting\ProjectJobSite\Cls_ProjectJobSite_Controller.js" />
+    <Content Include="Controller\Setting\SaleProject\Cls_SaleProject_Controller.js" />
+    <Content Include="Controller\Worker\Manufacture\Cls_Manufacture_Controller.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Controller\Worker\OrderFormula\Cls_OrderFormula_Controller.js" />
+    <Content Include="Controller\Worker\OrderProduct\Cls_OrderProduct_Controller.js" />
+    <Content Include="Controller\Worker\Order\Cls_Order_Controller.js" />
+    <Content Include="Controller\Worker\Shipment\Cls_Shipment_Controller.js" />
+    <Content Include="File_Config.json" />
+    <Content Include="Main\Subscriber\Private\Cls_Private_Subscriber.js" />
+    <Content Include="Main\Subscriber\Public\Cls_Public_Subscriber.js" />
+    <Content Include="Main\Property\TeenyWebApi\Cls_TeenyWebApi_Property.js" />
+    <Content Include="Main_TeenyWebApi_SSMBatching.js" />
+    <Content Include="Models\Profile\Companied\Company\Cls_Company_Models.js" />
+    <Content Include="Models\Profile\Companied\Employees\Department\Cls_Department_Models.js" />
+    <Content Include="Models\Profile\Companied\Employees\Employee\Cls_Employee_Models.js" />
+    <Content Include="Models\Profile\Companied\Employees\Position\Cls_Position_Models.js" />
+    <Content Include="Models\Profile\Companied\Factory\FormulaItem\Cls_FormulaItem_Models.js" />
+    <Content Include="Models\Profile\Companied\Factory\Formula\Cls_Formula_Models.js" />
+    <Content Include="Models\Profile\Companied\Factory\Unit\Cls_Unit_Models.js" />
+    <Content Include="Models\Profile\Companied\Plant\Cls_Plant_Models.js" />
+    <Content Include="Models\Profile\Companied\StatusGroup\Cls_StatusGroup_Models.js" />
+    <Content Include="Models\Profile\Companied\Status\Cls_Status_Models.js" />
+    <Content Include="Models\Profile\Companied\Store\MaterialType\Cls_MaterialType_Models.js" />
+    <Content Include="Models\Profile\Companied\Store\Material\Cls_Material_Models.js" />
+    <Content Include="Models\Profile\Companied\Truck\Cls_Truck_Models.js" />
+    <Content Include="Models\Profile\Custom\Customer\Cls_Customer_Models.js" />
+    <Content Include="Models\Profile\Custom\JobSite\Cls_JobSite_Models.js" />
+    <Content Include="Models\Profile\Custom\Project\Cls_Project_Models.js" />
+    <Content Include="Models\Setting\CustomerProject\Cls_CustomerProject_Models.js" />
+    <Content Include="Models\Setting\PlantMaterial\Cls_PlantMaterial_Models.js" />
+    <Content Include="Models\Setting\ProjectJobSite\Cls_ProjectJobSite_Models.js" />
+    <Content Include="Models\Setting\SaleProject\Cls_SaleProject_Models.js" />
+    <Content Include="Models\Worker\Manufacture\Cls_Manufacture_Models.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Models\Worker\OrderFormula\Cls_OrderFormula_Models.js" />
+    <Content Include="Models\Worker\OrderProduct\Cls_OrderProduct_Models.js" />
+    <Content Include="Models\Worker\Order\Cls_Order_Models.js" />
+    <Content Include="Models\Worker\Shipment\Cls_Shipment_Models.js" />
+    <Content Include="package.json" />
+    <Content Include="README.md" />
+    <Content Include="SQLFactory\Profile\Companied\Company\Cls_Company_SQL.js" />
+    <Content Include="SQLFactory\Profile\Companied\Employees\Department\Cls_Department_SQL.js" />
+    <Content Include="SQLFactory\Profile\Companied\Employees\Employee\Cls_Employee_SQL.js" />
+    <Content Include="SQLFactory\Profile\Companied\Employees\Position\Cls_Position_SQL.js" />
+    <Content Include="SQLFactory\Profile\Companied\Factory\FormulaItem\Cls_FormulaItem_SQL.js" />
+    <Content Include="SQLFactory\Profile\Companied\Factory\Formula\Cls_Formula_SQL.js" />
+    <Content Include="SQLFactory\Profile\Companied\Factory\Unit\Cls_Unit_SQL.js" />
+    <Content Include="SQLFactory\Profile\Companied\Plant\Cls_Plant_SQL.js" />
+    <Content Include="SQLFactory\Profile\Companied\StatusGroup\Cls_StatusGroup_SQL.js" />
+    <Content Include="SQLFactory\Profile\Companied\Status\Cls_Status_SQL.js" />
+    <Content Include="SQLFactory\Profile\Companied\Store\MaterialType\Cls_MaterialType_SQL.js" />
+    <Content Include="SQLFactory\Profile\Companied\Store\Material\Cls_Material_SQL.js" />
+    <Content Include="SQLFactory\Profile\Companied\Truck\Cls_Truck_SQL.js" />
+    <Content Include="SQLFactory\Profile\Custom\Customer\Cls_Customer_SQL.js" />
+    <Content Include="SQLFactory\Profile\Custom\JobSite\Cls_JobSite_SQL.js" />
+    <Content Include="SQLFactory\Profile\Custom\Project\Cls_Project_SQL.js" />
+    <Content Include="SQLFactory\Setting\CustomerProject\Cls_CustomerProject_SQL.js" />
+    <Content Include="SQLFactory\Setting\PlantMaterial\Cls_PlantMaterial_SQL.js" />
+    <Content Include="SQLFactory\Setting\ProjectJobSite\Cls_ProjectJobSite_SQL.js" />
+    <Content Include="SQLFactory\Setting\SaleProject\Cls_SaleProject_SQL.js" />
+    <Content Include="SQLFactory\Worker\Manufacture\Cls_Manufacture_SQL.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="SQLFactory\Worker\OrderFormula\Cls_OrderFormula_SQL.js" />
+    <Content Include="SQLFactory\Worker\OrderProduct\Cls_OrderProduct_SQL.js" />
+    <Content Include="SQLFactory\Worker\Order\Cls_Order_SQL.js" />
+    <Content Include="SQLFactory\Worker\Shipment\Cls_Shipment_SQL.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BusinessData\" />
+    <Folder Include="BusinessData\Execute\" />
+    <Folder Include="Controller\Profile\" />
+    <Folder Include="Controller\Profile\Companied\" />
+    <Folder Include="Controller\Profile\Companied\Company\" />
+    <Folder Include="Controller\Profile\Companied\Employees\" />
+    <Folder Include="Controller\Profile\Companied\Employees\Department\" />
+    <Folder Include="Controller\Profile\Companied\Employees\Employee\" />
+    <Folder Include="Controller\Profile\Companied\Employees\Position\" />
+    <Folder Include="Controller\Profile\Companied\Factory\" />
+    <Folder Include="Controller\Profile\Companied\Factory\FormulaItem\" />
+    <Folder Include="Controller\Profile\Companied\Factory\Formula\" />
+    <Folder Include="Controller\Profile\Companied\Factory\Unit\" />
+    <Folder Include="Controller\Profile\Companied\Plant\" />
+    <Folder Include="Controller\Profile\Companied\StatusGroup\" />
+    <Folder Include="Controller\Profile\Companied\Status\" />
+    <Folder Include="Controller\Profile\Companied\Store\" />
+    <Folder Include="Controller\Profile\Companied\Store\MaterialType\" />
+    <Folder Include="Controller\Profile\Companied\Store\Material\" />
+    <Folder Include="Controller\Profile\Companied\Truck\" />
+    <Folder Include="Controller\Profile\Custom\" />
+    <Folder Include="Controller\Profile\Custom\Customer\" />
+    <Folder Include="Controller\Profile\Custom\JobSite\" />
+    <Folder Include="Controller\Profile\Custom\Project\" />
+    <Folder Include="Controller\Setting\" />
+    <Folder Include="Controller\Setting\CustomerProject\" />
+    <Folder Include="Controller\Setting\PlantMaterial\" />
+    <Folder Include="Controller\Setting\ProjectJobSite\" />
+    <Folder Include="Controller\Setting\SaleProject\" />
+    <Folder Include="Controller\Worker\" />
+    <Folder Include="Controller\Worker\Manufacture\" />
+    <Folder Include="Controller\Worker\OrderFormula\" />
+    <Folder Include="Controller\Worker\OrderProduct\" />
+    <Folder Include="Controller\Worker\Order\" />
+    <Folder Include="Controller\Worker\Shipment\" />
+    <Folder Include="Models\Profile\" />
+    <Folder Include="Models\Profile\Companied\" />
+    <Folder Include="Models\Profile\Companied\Company\" />
+    <Folder Include="Models\Profile\Companied\Employees\" />
+    <Folder Include="Models\Profile\Companied\Employees\Department\" />
+    <Folder Include="Models\Profile\Companied\Employees\Employee\" />
+    <Folder Include="Models\Profile\Companied\Employees\Position\" />
+    <Folder Include="Models\Profile\Companied\Factory\" />
+    <Folder Include="Models\Profile\Companied\Factory\FormulaItem\" />
+    <Folder Include="Models\Profile\Companied\Factory\Formula\" />
+    <Folder Include="Models\Profile\Companied\Factory\Unit\" />
+    <Folder Include="Models\Profile\Companied\Plant\" />
+    <Folder Include="Models\Profile\Companied\StatusGroup\" />
+    <Folder Include="Models\Profile\Companied\Status\" />
+    <Folder Include="Models\Profile\Companied\Store\" />
+    <Folder Include="Models\Profile\Companied\Store\MaterialType\" />
+    <Folder Include="Models\Profile\Companied\Store\Material\" />
+    <Folder Include="Models\Profile\Companied\Truck\" />
+    <Folder Include="Models\Profile\Custom\" />
+    <Folder Include="Models\Profile\Custom\Customer\" />
+    <Folder Include="Models\Profile\Custom\JobSite\" />
+    <Folder Include="Models\Profile\Custom\Project\" />
+    <Folder Include="Models\Setting\" />
+    <Folder Include="Models\Setting\CustomerProject\" />
+    <Folder Include="Models\Setting\MaterialPlant\" />
+    <Folder Include="Models\Setting\OrderFormula\" />
+    <Folder Include="Models\Setting\SaleProject\" />
+    <Folder Include="Models\Setting\ProjectJobSite\" />
+    <Folder Include="Models\Setting\PlantMaterial\" />
+    <Folder Include="Models\Worker\" />
+    <Folder Include="Models\Worker\Manufacture\" />
+    <Folder Include="Models\Worker\OrderFormula\" />
+    <Folder Include="Models\Worker\OrderProduct\" />
+    <Folder Include="Models\Worker\Order\" />
+    <Folder Include="Models\Worker\Shipment\" />
+    <Folder Include="SQLFactory\" />
+    <Folder Include="Models\" />
+    <Folder Include="Main\" />
+    <Folder Include="Main\Subscriber\" />
+    <Folder Include="Main\Subscriber\Private\" />
+    <Folder Include="Main\Subscriber\Public\" />
+    <Folder Include="Main\Property\" />
+    <Folder Include="Main\Property\TeenyWebApi\" />
+    <Folder Include="Controller\" />
+    <Folder Include="SQLFactory\Profile\" />
+    <Folder Include="SQLFactory\Profile\Companied\" />
+    <Folder Include="SQLFactory\Profile\Companied\Company\" />
+    <Folder Include="SQLFactory\Profile\Companied\Employees\" />
+    <Folder Include="SQLFactory\Profile\Companied\Employees\Department\" />
+    <Folder Include="SQLFactory\Profile\Companied\Employees\Employee\" />
+    <Folder Include="SQLFactory\Profile\Companied\Employees\Position\" />
+    <Folder Include="SQLFactory\Profile\Companied\Factory\" />
+    <Folder Include="SQLFactory\Profile\Companied\Factory\FormulaItem\" />
+    <Folder Include="SQLFactory\Profile\Companied\Factory\Formula\" />
+    <Folder Include="SQLFactory\Profile\Companied\Factory\Unit\" />
+    <Folder Include="SQLFactory\Profile\Companied\Plant\" />
+    <Folder Include="SQLFactory\Profile\Companied\StatusGroup\" />
+    <Folder Include="SQLFactory\Profile\Companied\Status\" />
+    <Folder Include="SQLFactory\Profile\Companied\Store\" />
+    <Folder Include="SQLFactory\Profile\Companied\Store\MaterialType\" />
+    <Folder Include="SQLFactory\Profile\Companied\Store\Material\" />
+    <Folder Include="SQLFactory\Profile\Companied\Truck\" />
+    <Folder Include="SQLFactory\Profile\Custom\" />
+    <Folder Include="SQLFactory\Profile\Custom\Customer\" />
+    <Folder Include="SQLFactory\Profile\Custom\JobSite\" />
+    <Folder Include="SQLFactory\Profile\Custom\Project\" />
+    <Folder Include="SQLFactory\Setting\" />
+    <Folder Include="SQLFactory\Setting\CustomerProject\" />
+    <Folder Include="SQLFactory\Setting\PlantMaterial\" />
+    <Folder Include="SQLFactory\Setting\ProjectJobSite\" />
+    <Folder Include="SQLFactory\Setting\SaleProject\" />
+    <Folder Include="SQLFactory\Worker\" />
+    <Folder Include="SQLFactory\Worker\Manufacture\" />
+    <Folder Include="SQLFactory\Worker\OrderFormula\" />
+    <Folder Include="SQLFactory\Worker\OrderProduct\" />
+    <Folder Include="SQLFactory\Worker\Order\" />
+    <Folder Include="SQLFactory\Worker\Shipment\" />
+  </ItemGroup>
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
+</Project>

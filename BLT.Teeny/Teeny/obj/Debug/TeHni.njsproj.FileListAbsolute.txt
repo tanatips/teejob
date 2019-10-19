@@ -1,0 +1,3 @@
+D:\IoT Code\Batching Plant\xDev.TeHni\TeHni\obj\Debug\TeHni.njsprojAssemblyReference.cache
+D:\IoT Code\Batching Plant\xDev.TeHni\TeHni\obj\Debug\TeHni.njsproj.CoreCompileInputs.cache
+D:\IoT Code\Batching Plant\xDev.TeHni\TeHni\bin\Microsoft.NodejsTools.WebRole.dll

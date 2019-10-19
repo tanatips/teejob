@@ -1,0 +1,16 @@
+{
+  "name": "te-hni",
+  "version": "0.0.0",
+  "description": "TeHni",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mqtt": "^3.0.0",
+    "request": "^2.88.0",
+    "socket.io": "^2.2.0",
+    "system-sleep": "^1.3.6"
+  }
+}

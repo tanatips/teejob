@@ -1,0 +1,103 @@
+
+.logon {
+    background-image: url(../ViewsContent/Image/logon.png);
+    background-repeat: no-repeat;
+}
+.logout {
+    background-image: url(../ViewsContent/Image/logout.png);
+    background-repeat: no-repeat;
+}
+.book {
+    background-image:url(../ViewsContent/Image/book.png);
+    background-repeat: no-repeat;
+}
+.bookred {
+     background-image:url(../ViewsContent/Image/book-red.png);
+     background-repeat: no-repeat;    
+}
+.add {
+    background-image:url(../ViewsContent/Image/add.png);
+    background-repeat: no-repeat; 
+}
+.edit {
+    background-image:url(../ViewsContent/Image/cog_edit.png);
+    background-repeat: no-repeat; 
+}
+.close {
+    background-image:url(../ViewsContent/Image/cross.gif);
+}
+.delete {
+    background-image:url(../ViewsContent/Image/delete.gif);
+    background-repeat: no-repeat; 
+}
+.info {
+     background-image:url(../ViewsContent/Image/information.png);
+     background-repeat: no-repeat;    
+}
+.app {
+    background-image: url(../ViewsContent/Image/application_view_list.png);
+    background-repeat: no-repeat;
+}
+.search {
+    background-image: url(../ViewsContent/Image/view.png);
+    background-repeat: no-repeat;
+}
+.grid {
+    background-image: url(../ViewsContent/Image/grid.png);
+    background-repeat: no-repeat;
+}
+.error {
+    background-image: url(../ViewsContent/Image/error.png);
+    background-repeat: no-repeat;
+}
+.user {
+    background-image: url(../ViewsContent/Image/user.gif);
+    background-repeat: no-repeat;
+}
+.user_comment {
+    background-image: url(../ViewsContent/Image/user_comment.png);
+    background-repeat: no-repeat;
+}
+.calendar {
+    background-image:url(../ViewsContent/Image/calendar.png);
+}
+.arrow-up {
+    background-image: url(../ViewsContent/Image/arrow-up.gif);
+    background-repeat: no-repeat;
+}
+.arrow-down {
+    background-image: url(../ViewsContent/Image/arrow-down.gif);
+    background-repeat: no-repeat;
+}
+.print {
+    background-image: url(../ViewsContent/Image/print.gif);
+    background-repeat: no-repeat;
+}
+.preview {
+    background-image: url(../ViewsContent/Image/preview.png);
+    background-repeat: no-repeat;
+}
+.save {
+    background-image: url(../ViewsContent/Image/save.gif);
+    background-repeat: no-repeat;
+}
+.item {
+    background-image: url(../ViewsContent/Image/list-items.gif);
+    background-repeat: no-repeat;
+}
+.menu {
+    background-image: url(../ViewsContent/Image/menu-show.gif);
+    background-repeat: no-repeat;
+}
+.new {
+    background-image:url(../ViewsContent/Image/feed_add.png);
+    background-repeat: no-repeat;
+}
+.refresh {
+    background-image: url(../ViewsContent/Image/table_refresh.png);
+    background-repeat: no-repeat;
+}
+.accept {
+    background-image: url(../ViewsContent/Image/accept.png);
+    background-repeat: no-repeat;
+}

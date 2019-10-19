@@ -1,0 +1,19 @@
+﻿body 
+{
+    padding-left:5px;
+    padding-top:5px;   
+   
+}
+ 
+   .row-yellow .x-grid-cell {
+        background-color: yellow !important;       
+    }
+   .row-orange .x-grid-cell {
+        background-color: orange !important;
+    }    
+   .user3 .x-grid-cell {
+        background-color: #FFFFBB !important;
+    }
+    
+ 
+  

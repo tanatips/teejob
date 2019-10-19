@@ -1,0 +1,6 @@
+D:\IoT Code\Batching Plant\BTL.TeenyWebApi\TeenyWebApi\obj\Debug\TeenyWebApi.njsprojAssemblyReference.cache
+D:\IoT Code\Batching Plant\BTL.TeenyWebApi\TeenyWebApi\obj\Debug\TeenyWebApi.njsproj.CoreCompileInputs.cache
+D:\IoT Code\Batching Plant\BTL.TeenyWebApi\TeenyWebApi\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\41284701\Desktop\Batching Plant\BTL.TeenyWebApi\TeenyWebApi\obj\Debug\TeenyWebApi.njsproj.CoreCompileInputs.cache
+C:\Users\41284701\Desktop\Batching Plant\BTL.TeenyWebApi\TeenyWebApi\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\41284701\Desktop\Batching Plant\BTL.TeenyWebApi\TeenyWebApi\obj\Debug\TeenyWebApi.njsprojAssemblyReference.cache

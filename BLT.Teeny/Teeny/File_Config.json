@@ -1,0 +1,65 @@
+{
+  "BROKER_PRIVATE": {
+    "_comment": "memberorld.net",
+    "HOST": "150.95.80.156",
+    "PORT": 1884,
+    "HOST_PRD": "localhost",
+    "PORT_PRD": 1884
+  },
+  "BROKER_PUBLIC": {
+    "_comment": "memberorld.net",
+    "HOST": "150.95.80.156",
+    "PORT": 1884,
+    "HOST_PRD": "localhost",
+    "PORT_PRD": 1884
+  },
+  "MQTT_AUTHEN_PRIVATE": {
+    "USER_NAME": "LookForward",
+    "PASSWORD": "M@ve2Future",
+    "USER_NAME_PRD": "LookForward",
+    "PASSWORD_PRD": "M@ve2Future"
+  },
+  "MQTT_AUTHEN_PUBLIC": {
+    "USER_NAME": "LookForward",
+    "PASSWORD": "M@ve2Future",
+    "USER_NAME_PRD": "LookForward",
+    "PASSWORD_PRD": "M@ve2Future"
+  },
+  "MY_TOPPIC": [
+    {
+      "TOPPIC_NAME": "/TeenyWebApp/ContactDataGatewayPublic/SSMBatch"
+    },
+    {
+      "TOPPIC_NAME": "/TeenyWebApp/ContactDataGatewayPrivate/SSMBatch"
+    }
+  ],
+  "WEB_APP": {
+    "WEB_NAME": "/SSMBatch",
+    "URL": "http://localhost:8007",
+    "PORT": "8007",
+    "WEB_NAME_PRD": "/SSMBatch",
+    "URL_PRD": "http://memberworld.net:8007",
+    "PORT_PRD": "8007"
+  },
+  "TOPPIC_PRIVATE_DATAGATEWAY": {  
+    "TOPPIC1": "/DataGatewayPrivate/ContactPrivateWebApi/SSMBatch"
+  },
+  "TOPPIC_PRIVATE_MACHINEGATEWAY": {
+    "TOPPIC1": ""
+  },
+  "TOPPIC_PUBLIC_DATAGATEWAY": {
+    "TOPPIC1": "/DataGatewayPublic/ContactPrivateTeenyWebApp/SSMBatch"
+  },
+  "WEB_API": {
+    "URL": "http://localhost:9007",
+    "URL_Prd": "http://memberworld.net:9007"
+  },
+  "WEB_API_SECURITY": {
+    "URL": "http://memberworld.net:9000",
+    "URL_PRD": "http://memberworld.net:9000"
+  },
+  "BOARD_DETAIL": {
+    "SYSTEM_NAME": "Batching",
+    "BOARD_NAME": "SSM Interface Borad"
+  }
+}

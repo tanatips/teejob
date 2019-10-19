@@ -1,0 +1,288 @@
+﻿
+<html>
+<head>
+    <title>Machine Monitoring</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="node_modules/socket.io-client/dist/socket.io.js"></script>
+
+    <link href="ViewsContent/Ext-Icon.css" rel="stylesheet" type="text/css" />
+
+    <script src="ViewsScript/Jquery/jquery-1.4.4.min.js" type="text/javascript"></script>
+
+    <script src="ViewsScript/Extjs602/build/ext-all.js" type="text/javascript"></script>
+    <link href="ViewsScript/Extjs602/build/classic/theme-triton/resources/theme-triton-all.css" rel="stylesheet" type="text/css" />
+
+    <!---- Canvas Chart ----------->
+    <!--<script src="ViewsScript/CanvasChart/gauge.min.js" type="text/javascript"></script>-->
+    <!--<script src="ViewsScript/CanvasChart/canvasjs.min.js"></script>-->
+    <!--<script src="ViewsScript/CanvasChart/jquery.canvasjs.min.js"></script>-->
+    <!-- -----ใช้สำหรับเลือก Themes หลายๆ แบบ ------- -->
+
+    <script src="ViewsManager/Home/Cls_Home_Views.js" type="text/javascript"></script>
+    <script src="ViewsManager/Home/Cls_MenuTree_Views.js" type="text/javascript"></script>
+    <script src="ViewsManager/Home/Cls_TabPanel_Views.js" type="text/javascript"></script>
+    <script src="ViewsManager/Home/Cls_LogOn_Views.js" type="text/javascript"></script>
+
+    <script src="ViewsScript/MyLibary/Cls_MyLibary_Views.js" type="text/javascript"></script>
+    <script src="ViewsScript/MyLibary/Cls_MessageBox_Views.js" type="text/javascript"></script>
+    <script src="ViewsScript/MyLibary/Cls_CommonUI_Views.js" type="text/javascript"></script>
+
+    <!-- ====== Company ====== -->
+    <script src="ViewsManager/Companied/Company/Cls_Company_Views.js"></script>
+    <script src="ViewsManager/Companied/Company/Cls_CompanyForm_Views.js"></script>
+    <script src="ViewsManager/Companied/Company/Cls_CompanyAction_Views.js"></script>
+
+    <!-- ====== Department ====== -->
+    <script src="ViewsManager/Companied/Employees/Department/Cls_Department_Views.js"></script>
+    <script src="ViewsManager/Companied/Employees/Department/Cls_DepartmentForm_Views.js"></script>
+    <script src="ViewsManager/Companied/Employees/Department/Cls_DepartmentAction_Views.js"></script>
+
+    <!-- Position -->
+    <script src="ViewsManager/Companied/Employees/Position/Cls_Position_Views.js"></script>
+    <script src="ViewsManager/Companied/Employees/Position/Cls_PositionForm_Views.js"></script>
+    <script src="ViewsManager/Companied/Employees/Position/Cls_PositionAction_Views.js"></script>
+
+    <!-- Plant -->
+    <script src="ViewsManager/Companied/Plant/Cls_Plant_Views.js"></script>
+    <script src="ViewsManager/Companied/Plant/Cls_PlantForm_Views.js"></script>
+    <script src="ViewsManager/Companied/Plant/Cls_PlantAction_Views.js"></script>
+
+    <!-- Plant -->
+    <script src="ViewsManager/Companied/Employees/Employee/Cls_Employee_Views.js"></script>
+    <script src="ViewsManager/Companied/Employees/Employee/Cls_EmployeeForm_Views.js"></script>
+    <script src="ViewsManager/Companied/Employees/Employee/Cls_EmployeeAction_Views.js"></script>
+
+    <!-- Truck -->
+    <script src="ViewsManager/Companied/Truck/Cls_Truck_Views.js"></script>
+    <script src="ViewsManager/Companied/Truck/Cls_TruckForm_Views.js"></script>
+    <script src="ViewsManager/Companied/Truck/Cls_TruckAction_Views.js"></script>
+
+    <!-- Material Type -->
+    <script src="ViewsManager/Companied/Store/MaterialType/Cls_MaterialType_Views.js"></script>
+    <script src="ViewsManager/Companied/Store/MaterialType/Cls_MaterialTypeForm_Views.js"></script>
+    <script src="ViewsManager/Companied/Store/MaterialType/Cls_MaterialTypeAction_Views.js"></script>
+
+    <!-- Material -->
+    <script src="ViewsManager/Companied/Store/Material/Cls_Material_Views.js"></script>
+    <script src="ViewsManager/Companied/Store/Material/Cls_MaterialForm_Views.js"></script>
+    <script src="ViewsManager/Companied/Store/Material/Cls_MaterialAction_Views.js"></script>
+
+    <!-- Unit -->
+    <script src="ViewsManager/Companied/Factory/Unit/Cls_Unit_Views.js"></script>
+    <script src="ViewsManager/Companied/Factory/Unit/Cls_UnitForm_Views.js"></script>
+    <script src="ViewsManager/Companied/Factory/Unit/Cls_UnitAction_Views.js"></script>
+
+    <!-- Formula -->
+    <script src="ViewsManager/Companied/Factory/Formula/Cls_Formula_Views.js"></script>
+    <script src="ViewsManager/Companied/Factory/Formula/Cls_FormulaForm_Views.js"></script>
+    <script src="ViewsManager/Companied/Factory/Formula/Cls_FormulaAction_Views.js"></script>
+
+    <!-- Formula Item -->
+    <script src="ViewsManager/Companied/Factory/FormulaItem/Cls_FormulaItem_Views.js"></script>
+    <script src="ViewsManager/Companied/Factory/FormulaItem/Cls_FormulaItemForm_Views.js"></script>
+    <script src="ViewsManager/Companied/Factory/FormulaItem/Cls_FormulaItemAction_Views.js"></script>
+
+    <!-- Customer -->
+    <script src="ViewsManager/Custom/Customer/Cls_Customer_Views.js"></script>
+    <script src="ViewsManager/Custom/Customer/Cls_CustomerForm_Views.js"></script>
+    <script src="ViewsManager/Custom/Customer/Cls_CustomerAction_Views.js"></script>
+
+    <!-- Project -->
+    <script src="ViewsManager/Custom/Project/Cls_Project_Views.js"></script>
+    <script src="ViewsManager/Custom/Project/Cls_ProjectForm_Views.js"></script>
+    <script src="ViewsManager/Custom/Project/Cls_ProjectAction_Views.js"></script>
+
+    <!-- Job Site -->
+    <script src="ViewsManager/Custom/JobSite/Cls_JobSite_Views.js"></script>
+    <script src="ViewsManager/Custom/JobSite/Cls_JobSiteForm_Views.js"></script>
+    <script src="ViewsManager/Custom/JobSite/Cls_JobSiteAction_Views.js"></script>
+
+    <!-- Customer Project -->
+    <script src="ViewsManager/Setting/CustomerProject/Cls_CustomerProject_Views.js"></script>
+    <script src="ViewsManager/Setting/CustomerProject/Cls_CustomerProjectForm_Views.js"></script>
+    <script src="ViewsManager/Setting/CustomerProject/Cls_CustomerProjectAction_Views.js"></script>
+
+    <!-- Project JobSite -->
+    <script src="ViewsManager/Setting/ProjectJobSite/Cls_ProjectJobSite_Views.js"></script>
+    <script src="ViewsManager/Setting/ProjectJobSite/Cls_ProjectJobSiteForm_Views.js"></script>
+    <script src="ViewsManager/Setting/ProjectJobSite/Cls_ProjectJobSiteAction_Views.js"></script>
+
+    <!-- Sale Project -->
+    <script src="ViewsManager/Setting/SaleProject/Cls_SaleProject_Views.js"></script>
+    <script src="ViewsManager/Setting/SaleProject/Cls_SaleProjectForm_Views.js"></script>
+    <script src="ViewsManager/Setting/SaleProject/Cls_SaleProjectAction_Views.js"></script>
+
+    <!-- Plant Material -->
+    <script src="ViewsManager/Setting/PlantMaterial/Cls_PlantMaterial_Views.js"></script>
+    <script src="ViewsManager/Setting/PlantMaterial/Cls_PlantMaterialForm_Views.js"></script>
+    <script src="ViewsManager/Setting/PlantMaterial/Cls_PlantMaterialAction_Views.js"></script>
+
+    <!-- Order -->
+    <script src="ViewsManager/Worker/Order/Cls_Order_Views.js"></script>
+    <script src="ViewsManager/Worker/Order/Cls_OrderForm_Views.js"></script>
+    <script src="ViewsManager/Worker/Order/Cls_OrderAction_Views.js"></script>
+
+    <!-- Order Product -->
+    <script src="ViewsManager/Worker/Order/OrderProduct/Cls_OrderProductForm_Views.js"></script>
+    <script src="ViewsManager/Worker/Order/OrderProduct/Cls_OrderProductAction_Views.js"></script>
+
+    <!-- Manufacture -->
+    <script src="ViewsManager/Worker/Manufacture/Cls_Manufacture_Views.js"></script>
+    <script src="ViewsManager/Worker/Manufacture/Cls_ManufactureForm_Views.js"></script>
+    <script src="ViewsManager/Worker/Manufacture/Cls_ManufactureAction_Views.js"></script>
+
+
+    <style type="text/css">
+
+        .my-font {
+            font-size: 18px;
+            font-family: 'Arial' !important;
+            /* line-height: 40px;
+                  text-align: center;*/
+        }
+
+        .my-btn1 .x-btn-inner {
+            color: orangered;
+            font-size: 12px;
+            font-family: 'Arial' !important;
+        }
+
+        .my-btn3 .x-btn-inner {
+            color: black;
+            font-size: 12px;
+            font-family: 'Arial' !important;
+        }
+
+        .my-btn2 {
+            background-color: #B952FE !important;
+        }
+
+        .my-titlePanel .x-panel-header-default {
+            background-color: #FFE4B5 !important;
+            background: background;
+            font-family: 'Arial' !important;
+            font-size: 14px;
+        }
+    </style>
+
+    <script type="text/javascript">
+
+        //socket = io();
+
+        //var urlRoot = "http://memberworld.net:8007";
+        var urlRoot = "http://localhost:8007";
+
+
+        //=== Set Internal /External  ===//
+        var modeRun = "Internal";
+        //var modeRun = "External";
+
+        //============================================//
+
+        function Fn_DecodeUrl(userName, groupName) {
+
+            var userItem = new RegExp('[\?&]' + userName + '=([^&#]*)').exec(window.location.href);
+            var groupItem = new RegExp('[\?&]' + groupName + '=([^&#]*)').exec(window.location.href);
+
+            if (userItem !== null && groupItem !== null) {
+
+                Ext.get('lblUserLogOn-HomePage').dom.innerHTML = userItem[1];
+                Ext.get('txtUserLogon-HomePage').dom.innerHTML = userItem[1];
+
+                Ext.get('lblUserGroup-HomePage').dom.innerHTML = groupItem[1];
+                Ext.get('txtUserGroup-HomePage').dom.innerHTML = groupItem[1];
+
+                var home = new Cls_Home_Views(urlRoot);
+                home.Fn_DisplayViewport();
+
+            }
+            else {
+
+                /*
+                 var userName = prompt("Please enter your name", "TEE");
+
+                 Ext.get('lblUserLogOn-HomePage').dom.innerHTML = userName;
+                 Ext.get('txtUserLogon-HomePage').dom.innerHTML = userName;
+
+
+                 var logOn = new Cls_LogOn_Views(urlRoot);
+
+                 logOn.Fn_WindowLogOn();
+               */
+
+                Ext.Msg.prompt(
+                    'Please enter your name',
+                    'User Name:',
+                    function (btn, text) {
+
+                        if (btn === "ok") {
+
+                            var userName = text;
+
+                            Ext.get('lblUserLogOn-HomePage').dom.innerHTML = userName;
+                            Ext.get('txtUserLogon-HomePage').dom.innerHTML = userName;
+
+
+                            var logOn = new Cls_LogOn_Views(urlRoot);
+
+                            logOn.Fn_WindowLogOn();
+                        }
+                    },
+                    null,
+                    false,
+                    "TEE",
+                    null
+                );
+        
+            }
+        };
+
+
+        Ext.onReady(function () {
+
+            Fn_DecodeUrl("user", "group");
+
+            Ext.get("hiddenOwnerUnique-HomeHtml").dom.value = Date.now();
+
+        });
+
+    </script>
+
+</head>
+    <body>
+        <div id="divHeader-HomePage">
+            <table style="width:100%;">
+                <tr>
+                    <td style="width:30%">
+                        <img src="ViewsContent/Image/logo.gif"  style="width:70px; height:40px;" alt=""/>
+                    </td>
+                    <td align="right">Program Name:</td>
+                    <td align="left">
+                        <label id="lblProgramName-HomePage">SSMBATCHING</label>
+                    </td>                  
+                    <td align="right">Login By :</td>
+                    <td align="left">
+                      <label id="lblUserLogOn-HomePage"></label>
+                    </td>
+                    <td align="right" >User Group :</td>
+                    <td align="left">
+                      <label id="lblUserGroup-HomePage"></label>
+                    </td>
+                </tr>
+            </table>
+            
+            <input id="txtUserLogon-HomePage" type="hidden" value="" />
+            <input id="txtUserGroup-HomePage" type="hidden" value="" />
+            <input id="hiddenOwnerUnique-HomeHtml" type="hidden" value="" > 
+            
+        </div>
+    </body>
+</html>
+
+
+
+
+
+

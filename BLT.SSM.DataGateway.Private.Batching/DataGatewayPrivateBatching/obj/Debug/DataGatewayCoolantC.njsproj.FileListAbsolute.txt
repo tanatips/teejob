@@ -1,0 +1,6 @@
+D:\UTL Project\IoT Project\UTL.DataGateway.CoolantC\DataGatewayCoolantC\obj\Debug\DataGatewayCoolantC.njsprojAssemblyReference.cache
+D:\UTL Project\IoT Project\UTL.DataGateway.CoolantC\DataGatewayCoolantC\obj\Debug\DataGatewayCoolantC.njsproj.CoreCompileInputs.cache
+D:\UTL Project\IoT Project\UTL.DataGateway.CoolantC\DataGatewayCoolantC\bin\Microsoft.NodejsTools.WebRole.dll
+D:\UTL Project\IoT Project\Machine Monitoring\UTL.DataGateway.CoolantC\DataGatewayCoolantC\obj\Debug\DataGatewayCoolantC.njsprojAssemblyReference.cache
+D:\UTL Project\IoT Project\Machine Monitoring\UTL.DataGateway.CoolantC\DataGatewayCoolantC\obj\Debug\DataGatewayCoolantC.njsproj.CoreCompileInputs.cache
+D:\UTL Project\IoT Project\Machine Monitoring\UTL.DataGateway.CoolantC\DataGatewayCoolantC\bin\Microsoft.NodejsTools.WebRole.dll

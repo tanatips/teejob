@@ -1,0 +1,59 @@
+{
+  "BROKER_PRIVATE": {
+    "_comment": "memberorld.net",
+    "HOST": "150.95.80.156",
+    "PORT": 1884,
+    "HOST_PRD": "localhost",
+    "PORT_PRD": 1884
+  },
+  "BROKER_PUBLIC": {
+    "_comment": "memberorld.net",
+    "HOST": "150.95.80.156",
+    "PORT": 1884,
+    "HOST_PRD": "localhost",
+    "PORT_PRD": 1884
+  },
+  "MQTT_AUTHEN_PRIVATE": {
+    "USER_NAME": "LookForward",
+    "PASSWORD": "M@ve2Future",
+    "USER_NAME_PRD": "LookForward",
+    "PASSWORD_PRD": "M@ve2Future"
+  },
+  "MQTT_AUTHEN_PUBLIC": {
+    "USER_NAME": "LookForward",
+    "PASSWORD": "M@ve2Future",
+    "USER_NAME_PRD": "LookForward",
+    "PASSWORD_PRD": "M@ve2Future"
+  },
+  "DatabaseConfig": {
+    "DB_HOST": "150.95.80.156",
+    "DB_USER": "iotadmin",
+    "PASSWORD": "iotadmin",
+    "DB_NAME": "TEENY_SSM_BATCHING"
+  },
+  "MY_TOPPIC": [
+    {
+      "TOPPIC_NAME": "/TeenyWebApi/SSMBatching/MachineGatewayAttach"
+    }
+  ],
+  "WEB_APP": {
+    "WEB_NAME": "/SSMBatchWebApi",
+    "URL": "http://localhost:9007",
+    "PORT": "9007",
+    "WEB_NAME_PRD": "/SSMBatchWebApi",
+    "URL_PRD": "http://memberworld.net:9007",
+    "PORT_PRD": "9007"
+  },
+  "WEB_API": {
+    "URL": "",
+    "URL_PRD": ""
+  },
+  "WEB_API_SECURITY": {
+    "URL": "http://memberworld.net:9000",
+    "URL_PRD": "http://memberworld.net:9000"
+  },
+  "BOARD_DETAIL": {
+    "SYSTEM_NAME": "",
+    "BOARD_NAME": ""
+  }
+}
